@@ -1,0 +1,167 @@
+body{
+    background-color:yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+}
+#box{
+    height: 60%;
+    width: 60%;
+margin-left: auto;
+margin-right: auto;
+background-color: #FFD700;
+}
+
+ ul a{
+    color:orangered;
+    text-decoration:none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+    
+ }
+/* De ul hieronder is om de user agent stylesheet (dus hoe de browser
+dingen aangeeft op 0 te zetten */
+ul{
+   list-style-type:none;
+    margin-top:0px;
+    margin-left: auto;
+margin-right: auto;
+    padding:0;
+}
+
+li{
+    display: inline-block;
+    height: 20px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+    padding: 5px;
+    text-align: center;
+    color:orangered;
+    border: 3px solid blue;
+    border-radius: 9px;
+    background-color: whitesmoke;
+}
+
+
+li:hover{
+    
+    color: blue;
+    border: 3px solid orangered;
+    border-radius: 9px;
+    background-color: yellow;
+}
+
+h1{
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color:blue
+}
+
+img{    
+   
+    margin-left: 0px;
+    
+    margin-top: 15px;
+    width: 90%;
+    border-radius: 9px;
+
+}
+
+
+p{
+    margin-left: 0px;
+    color:orangered;
+}
+
+#eekhoorn{
+
+    margin-left: 20px;
+    padding: 5px;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+     font-size: 16px;
+}
+
+.eekhoorn{margin-left: 20px;
+    padding: 5px;
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+     font-size: 16px;
+}
+
+
+table{
+    margin-left: 20px;
+        padding: 5px;
+    color:orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+     font-size: 16px;
+}
+
+td{width: 30%;
+}
+
+input{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom:10px;
+    padding: 5px;
+    text-align: left;
+    color:orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+     font-size: 16px;
+     border: none;
+     border-radius: 3px;
+     display: block;
+    }
+
+    textarea{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom:10px;
+        padding: 5px;
+        text-align: left;
+        color:orangered;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+         Arial, sans-serif;
+         font-size: 16px;
+         border: none;
+         border-radius: 3px;
+         display: block;
+        }
+button{
+     width: 100px;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+     Arial, sans-serif;
+     font-size: 16px;
+     transition-duration: 0,4s;
+    color:orangered;
+    border: 3px solid blue;
+    border-radius: 9px;
+    background-color: whitesmoke;
+    display: block;
+}
+button:hover{
+    color: yellow;
+    border: 3px solid blue;
+    border-radius: 9px;
+    background-color: orangered;}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+color:blue;
+}
+
